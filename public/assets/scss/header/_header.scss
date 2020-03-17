@@ -317,11 +317,7 @@
     text-align: center;
   }
 
-  img {
-    // @media #{$lg-layout} {
-    //   margin: 0 auto;
-    //   max-width: 70%;
-    // }
+  .thumbnail img {
     margin: 0 auto;
     margin-top: 150px;
     max-width: 60%;

@@ -1,6 +1,33 @@
 /*==================
     Portfolio Area 
 ==================*/
+.active-dark .portfolio-area.bg_color--1 {
+  // background-image: url(/assets/images/bg/bg-image-32.png);
+  // background-size: cover;
+  position: relative;
+  overflow: hidden;
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.35;
+    background-image: url(/assets/images/bg/bg-image-32.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  // background-blend-mode: overlay;
+}
+
 .portfolio {
   position: relative;
   @extend %transition;
@@ -35,8 +62,9 @@
     cursor: pointer;
 
     &::before {
-      background-color: #f6004c;
-      background-image: linear-gradient(#ffc400 10%, #000000 100%);
+      // background-color: #f6004c;
+      // background-image: linear-gradient(#ffc400 10%, #000000 100%);
+      background-image: linear-gradient(#00000000 100%, #000000 100%);
       position: absolute;
       content: "";
       top: 0;
@@ -667,13 +695,13 @@
           content: url(/assets/images/icons/slick-arrow-right.png);
         }
         @media #{$md-layout} {
-          display: none !important;
+          // display: none !important;
         }
         @media #{$lg-layout} {
-          display: none !important;
+          // display: none !important;
         }
         @media #{$laptop-device} {
-          display: none !important;
+          // display: none !important;
         }
       }
 

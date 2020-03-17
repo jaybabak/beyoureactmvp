@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
+import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 
 import SliderOne from "../component/slider/SliderOne";
@@ -67,7 +68,7 @@ class MainDemo extends Component {
         {/* End Portfolio Area */}
 
         {/* Start CounterUp Area */}
-        <div className="rn-counterup-area pt--25 pb--110 bg_color--1">
+        {/* <div className="rn-counterup-area pt--25 pb--110 bg_color--1">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -78,7 +79,7 @@ class MainDemo extends Component {
             </div>
             <CounterOne />
           </div>
-        </div>
+        </div> */}
         {/* End CounterUp Area */}
 
         {/* Start Testimonial Area */}
@@ -90,12 +91,12 @@ class MainDemo extends Component {
         {/* End Testimonial Area */}
 
         {/* Start Blog Area */}
-        <div className="rn-blog-area pt--120 bg_color--1 mb-dec--30">
+        <div className="rn-blog-area pt--120 pb--120 bg_color--1 mb-dec--30">
           <div className="container">
             <div className="row align-items-end">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="section-title text-left">
-                  <h2>Latest News</h2>
+                  <h2>Updates</h2>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration.
@@ -157,8 +158,8 @@ class MainDemo extends Component {
         <div id="contact" className="fix">
           <div className="rn-contact-area ptb--120 bg_color--1">
             <ContactThree
-              // contactImages="/static/images/contact_image.png"
-              contactImages="/static/logo/FinalSquareHQ.png"
+              contactImages="/static/images/contact_image.png"
+              // contactImages="/static/logo/FinalSquareHQ.png"
               contactTitle="Inquiries."
             />
           </div>

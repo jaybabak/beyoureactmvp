@@ -4,6 +4,8 @@
 
 .active-dark {
   background: #101010;
+  // background-color: #0a0a0a;
+  background-color: black;
   [data-overlay="6"]:before,
   [data-black-overlay="6"]:before,
   [data-white-overlay="6"]:before {
@@ -124,6 +126,8 @@
   }
   .backto-top > div {
     background-color: #000;
+    border: 2px solid $theme-color;
+    line-height: 41px;
   }
   .backto-top svg {
     color: #fff;
@@ -205,5 +209,21 @@
       > a.open::after {
       border-color: transparent transparent $theme-color transparent;
     }
+  }
+
+  .service-area,
+  .portfolio-area,
+  .rn-blog-area,
+  .rn-brand-area {
+    background-color: black;
+  }
+  .rn-testimonial-area {
+    background-color: #0a0a0a;
+  }
+  .footer-area {
+    background: #0f0f0f;
+  }
+  .rn-contact-area {
+    background-color: #0e0e0e;
   }
 }
