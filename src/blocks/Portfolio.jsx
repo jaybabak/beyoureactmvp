@@ -7,6 +7,7 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import Slider from "react-slick";
 import PortfolioList from "../elements/portfolio/PortfolioList";
+import PortfolioMasonry from "../elements/portfolio/PortfolioMasonry";
 import { slickDot , portfolioSlick2 } from "../page-demo/script";
 
 const list = [
@@ -106,13 +107,13 @@ const Portfolio = () => {
                                                         <div className={`bg-blr-image ${value.image}`}></div>
                                                     </div>
                                                     <div className="content">
-                                                        <div className="inner">
+                                                        {/* <div className="inner">
                                                             <p>{value.category}</p>
                                                             <h4><a href="/portfolio-details">{value.title}</a></h4>
                                                             <div className="portfolio-button">
                                                                 <a className="rn-btn" href="/portfolio-details">Case Study</a>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             ))}
@@ -134,7 +135,7 @@ const Portfolio = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30">
-                                        <h2 className="title">All Works</h2>
+                                        <h2 className="title">Highlights</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
@@ -145,7 +146,7 @@ const Portfolio = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/portfolio"><span>View More Project</span></a>
+                                        <a className="rn-button-style--2 btn-solid" href="https://square.site/book/LNEZXRYRG31BT/be-you-by-mq-ottawa-on"><span>Book Now</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +161,7 @@ const Portfolio = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">All Works</h2>
+                                    <h2 className="title">The Work</h2>
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                 </div>
                             </div>
@@ -176,13 +177,13 @@ const Portfolio = () => {
                                             <div className={`bg-blr-image ${value.image}`}></div>
                                         </div>
                                         <div className="content">
-                                            <div className="inner">
+                                            {/* <div className="inner">
                                                 <p>{value.category}</p>
                                                 <h4><a href="/portfolio-details">{value.title}</a></h4>
                                                 <div className="portfolio-button">
                                                     <a className="rn-btn" href="/portfolio-details">Case Study</a>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 ))}

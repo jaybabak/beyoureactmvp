@@ -48,11 +48,11 @@ class PortfolioList extends Component{
                             </div>
                             <div className="content">
                                 <div className="inner">
-                                    <p>{value.category}</p>
+                                    {/* <p>{value.category}</p>
                                     <h4><a href="/portfolio-details">{value.title}</a></h4>
                                     <div className="portfolio-button">
                                         <a className="rn-btn" href="/portfolio-details">View Details</a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

@@ -64,7 +64,7 @@
     &::before {
       // background-color: #f6004c;
       // background-image: linear-gradient(#ffc400 10%, #000000 100%);
-      background-image: linear-gradient(#00000000 100%, #000000 100%);
+      // background-image: linear-gradient(#00000000 100%, #000000 100%);
       position: absolute;
       content: "";
       top: 0;
@@ -104,11 +104,20 @@
     }
 
     &.image-4 {
-      background-image: url(/assets/images/portfolio/March2.png);
+      background-image: url(/assets/images/portfolio/Maiza5.png);
+    }
+    &.image-5 {
+      background-image: url(/assets/images/portfolio/March5.png);
+    }
+    &.image-6 {
+      background-image: url(/assets/images/portfolio/Maiza7.png);
+    }
+    &.image-7 {
+      background-image: url(/assets/images/portfolio/March6a.jpg);
     }
 
     &::after {
-      background-color: rgba(45, 45, 45, 0.35);
+      // background-color: rgba(45, 45, 45, 0.35);
       position: absolute;
       top: 0;
       left: 0;
@@ -118,7 +127,7 @@
       z-index: 1;
       display: block;
       border-radius: 5px;
-      background-color: rgba(25, 25, 25, 0.37);
+      // background-color: rgba(25, 25, 25, 0.37);
       @extend %transition;
     }
   }

@@ -1,0 +1,47 @@
+.bg_image--35 {
+  background-image: url(/assets/images/bg/bg-image-29.jpg) 
+}
+
+.bg_image--36 {
+  background-image: url(/assets/images/bg/bg-image-32.png) 
+  // background-image: url(/assets/images/bg/bg-image-32.png) 
+}
+
+
+.breadcrumb-inner {
+  text-align: center;
+  h2{
+      &.title{
+          background: #f8be01;
+          background: linear-gradient(145deg, #f9cb00 0%, #c49704 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+      }
+  }
+  ul{
+      &.page-list {
+          @extend %liststyle;
+          li{
+              display: inline-block;
+              color: #fff;
+              a{
+                  color: #fff;
+              }
+              &.breadcrumb-item{
+                  &.active{
+                      color: #f9cb00;
+                  }
+              }
+          }
+      }
+  }
+}
+
+.rn-address .icon {
+  color: #f9cb00; 
+
+}
+
+.title .theme-gradient {
+
+}

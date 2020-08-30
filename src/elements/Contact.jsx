@@ -14,10 +14,275 @@ const AnyReactComponent = ({ text }) => <div>{text}</div>;
 class Contact extends Component{
     static defaultProps = {
         center: {
-            lat: 59.95,
-            lng: 30.33
+            lat: 45.423585,
+            lng: -75.700907
         },
-        zoom: 11
+        zoom: 11,
+        mapOptions: {
+          styles: [
+            {
+                "featureType": "all",
+                "elementType": "labels",
+                "stylers": [
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "saturation": 36
+                    },
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 40
+                    }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                    {
+                        "visibility": "on"
+                    },
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 16
+                    }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 20
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 17
+                    },
+                    {
+                        "weight": 1.2
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.country",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#e5c163"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.locality",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#c4c4c4"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.neighborhood",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#e5c163"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 20
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 21
+                    },
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi.business",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "color": "#f9cb00"
+                    },
+                    {
+                        "lightness": "0"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#ffffff"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                    {
+                        "color": "#e5c163"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 18
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "color": "#575757"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#ffffff"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                    {
+                        "color": "#2c2c2c"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 16
+                    }
+                ]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#999999"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 19
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 17
+                    }
+                ]
+            }
+        ] 
+        }
     };
 
     render(){
@@ -28,12 +293,12 @@ class Contact extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
+                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--35"  data-black-overlay="6">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
+                                    <h2 className="title theme-gradient">Contact Mariam</h2>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
                                 </div>
                             </div>
@@ -55,9 +320,8 @@ class Contact extends Component{
                                         <FiHeadphones />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+057 254 365 456">+057 254 365 456</a></p>
-                                        <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p>
+                                        <h4 className="title">Contact With Phone</h4>
+                                        <p><a href="tel:+16132180587">6132180587</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -71,8 +335,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <p><a href="mailto:contact@mariamqureshi.com">contact@mariamqureshi.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +349,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                        <p>Ottawa, Canada</p>
                                     </div>
                                 </div>
                             </div>
@@ -97,41 +360,31 @@ class Contact extends Component{
                 </div>
                 {/* End Contact Top Area  */}
 
-                {/* Start Contact Page Area  */}
-                <div className="rn-contact-page ptb--120 bg_color--1">
-                    <ContactTwo />
-                </div>
-                {/* End Contact Page Area  */}
-
                 {/* Start Contact Map  */}
                 <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
+                        bootstrapURLKeys={{ key: 'AIzaSyAsuWCY1t7MYV7fvlwO3G6AtPADDYuWrvs' }}
+                        options={this.props.mapOptions}
                         >
                         <AnyReactComponent
-                            lat={59.955413}
-                            lng={30.337844}
-                            text="My Marker"
+                            lat={45.423585}
+                            lng={-75.700907}
+                            text="Be You by MQ"
                         />
                         </GoogleMapReact>
                     </div>
                 </div>
                 {/* End Contact Map  */}
-                
 
-                {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
-                    </div>
+                {/* Start Contact Page Area  */}
+                <div className="rn-contact-page ptb--120 bg_color--1">
+                    <ContactTwo />
                 </div>
-                {/* End Brand Area */}
+                {/* End Contact Page Area  */}
+                
 
                 {/* Start Back To Top */}
                 <div className="backto-top">

@@ -26,7 +26,7 @@ class Footer extends Component {
                     <h2>
                       Let's get <br /> in touch
                     </h2>
-                    <a className="rn-button-style--2" href="/contact">
+                    <a className="rn-button-style--2" href="https://square.site/book/LNEZXRYRG31BT/be-you-by-mq-ottawa-on">
                       <span>Book Appointment</span>
                     </a>
                   </div>

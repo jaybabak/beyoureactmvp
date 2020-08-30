@@ -52,8 +52,8 @@ ul {
       cursor: pointer;
 
       @media #{$sm-layout} {
-        border-top: 0 none;
-        border-right: 0 none;
+        // border-top: 0 none;
+        // border-right: 0 none;
         height: auto;
         line-height: 10;
       }
@@ -82,6 +82,12 @@ ul {
     &.branstyle--2 {
       li {
         flex-basis: 33.33%;
+        @media #{$sm-layout} {
+          flex-basis: 50%;
+        }
+        @media #{$lg-layout} {
+          flex-basis: 33.33%;
+        }
       }
     }
   }

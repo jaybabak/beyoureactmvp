@@ -28,7 +28,8 @@ Blog Styles
         opacity: 0;
         @extend %transition;
         @media #{$large-mobile} {
-          opacity: 0.85;
+          background: linear-gradient(to bottom, transparent 0, #000000 100%);
+          opacity: 0.5;
           top: 0;
         }
       }

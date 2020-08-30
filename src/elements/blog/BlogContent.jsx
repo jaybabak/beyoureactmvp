@@ -2,18 +2,18 @@ const BlogContent = [
     {
         images: '01',
         title: ' Getting tickets to the big show',
-        category: 'Development'
+        category: 'Bridal'
     },
     {
         images: '02',
         title: 'A big ticket gone to be an interesting ',
-        category: 'Management'
+        category: 'Bridal'
     },
 
     {
         images: '03',
         title: 'The Home of the Future Could Bebes',
-        category: 'Design'
+        category: 'Bridal'
     },
     {
         images: '04',

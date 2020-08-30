@@ -22,7 +22,7 @@ class MainDemo extends Component {
     const PostList = BlogContent.slice(0, 3);
     return (
       <div className="active-dark">
-        <Helmet pageTitle="Main Demo Dark" />
+        <Helmet pageTitle="Mariam Qureshi | BE YOU by MQ" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
@@ -96,20 +96,20 @@ class MainDemo extends Component {
             <div className="row align-items-end">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="section-title text-left">
-                  <h2>Updates</h2>
+                  <h2>Bridal Makeup</h2>
                   <p>
                     There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration.
                   </p>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+              {/* <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="blog-btn text-left text-lg-right mt_sm--10 mt_md--10">
                   <a className="btn-transparent rn-btn-dark" href="/blog">
                     <span className="text">View All News</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="row mt--60 mt_sm--40">
               {PostList.map((value, i) => (
@@ -126,12 +126,12 @@ class MainDemo extends Component {
                     </div>
                     <div className="content">
                       <p className="blogtype">{value.category}</p>
-                      <h4 className="title">
+                      {/* <h4 className="title">
                         <a href="/blog-details">{value.title}</a>
-                      </h4>
+                      </h4> */}
                       <div className="blog-btn">
                         <a className="rn-btn text-white" href="/blog-details">
-                          Read More
+                          View Portfolio
                         </a>
                       </div>
                     </div>
@@ -146,6 +146,15 @@ class MainDemo extends Component {
         {/* Start Brand Area  */}
         <div className="rn-brand-area ptb--120 bg_color--5">
           <div className="container">
+          
+            <div className="row align-items-end">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div className="section-title text-left">
+                  <h2>Brands In My Kit</h2>
+                </div>
+              </div>                   
+            </div>          
+          
             <div className="row">
               <div className="col-lg-12">
                 <BrandOne branstyle="branstyle--2" />

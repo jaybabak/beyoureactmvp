@@ -24,12 +24,17 @@ const PortfolioList = [
     title: " Getting tickets to the big show"
   },
   {
-    image: "image-3",
+    image: "image-5",
     category: "Bridal Makeup",
     title: " Getting tickets to the big show"
   },
   {
-    image: "image-4",
+    image: "image-6",
+    category: "Bridal Makeup",
+    title: " Getting tickets to the big show"
+  },
+  {
+    image: "image-7",
     category: "Bridal Makeup",
     title: " Getting tickets to the big show"
   }
@@ -63,7 +68,7 @@ class Portfolio extends Component {
                   </div>
                   <div className="content">
                     <div className="inner">
-                      <p>{value.category}</p>
+                      {/* <p>{value.category}</p> */}
                       {/* <h4>
                         <a href="/portfolio-details">{value.title}</a>
                       </h4>
