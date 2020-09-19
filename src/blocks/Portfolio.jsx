@@ -32,12 +32,12 @@ const list = [
         title: 'Getting tickets to the big show'
     },
     {
-        image: 'image-3',
+        image: 'image-5',
         category: 'Development',
         title: 'Getting tickets to the big show'
     },
     {
-        image: 'image-4',
+        image: 'image-6',
         category: 'Development',
         title: 'Getting tickets to the big show'
     }

@@ -130,7 +130,7 @@ class MainDemo extends Component {
                         <a href="/blog-details">{value.title}</a>
                       </h4> */}
                       <div className="blog-btn">
-                        <a className="rn-btn text-white" href="/blog-details">
+                        <a className="rn-btn text-white" href="/portfolio">
                           View Portfolio
                         </a>
                       </div>

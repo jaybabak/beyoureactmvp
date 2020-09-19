@@ -306,8 +306,7 @@ class Contact extends Component{
                     </div>
                 </div>
                 {/* End Breadcrump Area */}
-
-
+ 
                 {/* Start Contact Top Area  */}
                 <div className="rn-contact-top-area ptb--120 bg_color--5">
                     <div className="container">

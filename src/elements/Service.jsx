@@ -65,7 +65,7 @@ class Service extends Component{
                         <div className="row service-one-wrapper">
                             {ServiceList.map( (val , i) => (
                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a className="text-center" href="/service-details">
+                                    <a className="text-center" href="/portfolio">
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}

@@ -4,6 +4,11 @@ import { portfolioSlick2 } from "../../../page-demo/script";
 
 const PortfolioList = [
   {
+    image: "image-7",
+    category: "Bridal Makeup",
+    title: " Getting tickets to the big show"
+  },
+  {
     image: "image-1",
     category: "Bridal Makeup",
     title: " Getting tickets to the big show"
@@ -19,12 +24,12 @@ const PortfolioList = [
     title: " Getting tickets to the big show"
   },
   {
-    image: "image-4",
+    image: "image-5",
     category: "Bridal Makeup",
     title: " Getting tickets to the big show"
   },
   {
-    image: "image-5",
+    image: "image-4",
     category: "Bridal Makeup",
     title: " Getting tickets to the big show"
   },
@@ -32,14 +37,9 @@ const PortfolioList = [
     image: "image-6",
     category: "Bridal Makeup",
     title: " Getting tickets to the big show"
-  },
-  {
-    image: "image-7",
-    category: "Bridal Makeup",
-    title: " Getting tickets to the big show"
   }
 ];
-
+ 
 class Portfolio extends Component {
   render() {
     let title = "Portfolio",
