@@ -79,7 +79,7 @@ const PortfolioList2 = [
 const Portfolio = () => {
     return (
         <>
-            <PageHelmet pageTitle='Counters' />
+            <PageHelmet pageTitle='Portfolio' />
 
             {/* Start Header Area  */}
             <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />

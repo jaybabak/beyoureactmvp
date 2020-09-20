@@ -22,7 +22,7 @@ class MainDemo extends Component {
     const PostList = BlogContent.slice(0, 3);
     return (
       <div className="active-dark">
-        <Helmet pageTitle="Mariam Qureshi | BE YOU by MQ" />
+        <Helmet pageTitle="Mariam Qureshi | Be You by MQ" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
