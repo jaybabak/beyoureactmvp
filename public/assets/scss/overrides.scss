@@ -52,7 +52,7 @@
 }
 
 .footer-left .inner h2 {
-  font-family: 'Cinzel';
+  font-family: $heading-font;
 }
 
 .backto-top > div {
@@ -62,4 +62,8 @@
   svg {
     color: #ffffff;
   }
+}
+
+.closeTrigger svg {
+  color: black;
 }
