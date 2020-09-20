@@ -126,7 +126,7 @@
   }
   .backto-top > div {
     background-color: #000;
-    border: 2px solid $theme-color!important;
+    border: 2px solid $theme-color;
     line-height: 41px;
   }
   .backto-top svg {
@@ -146,7 +146,8 @@
       color: #c6c9d8 !important;
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu {
-      background: #101010;
+      background: #ffffff;
+      background: #f9cb00;
     }
     .header-area .header-wrapper.menu-open .close-menu span {
       color: #c6c9d8 !important;
@@ -155,7 +156,9 @@
       color: #c6c9d8 !important;
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
-      color: #ffffff;
+      font-family: $heading-font;
+      color: #000000;
+      font-size: 19px;
     }
     .header-area
       .header-wrapper
@@ -180,6 +183,7 @@
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu {
       background: #101010;
+      background: #f9cb00;
     }
     .header-area .header-wrapper.menu-open .close-menu span {
       color: #c6c9d8 !important;
@@ -192,6 +196,8 @@
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu li a {
       color: #ffffff;
+      color: #000000;
+      font-size: 19px;
     }
     .header-area
       .header-wrapper
