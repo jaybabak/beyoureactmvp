@@ -31,12 +31,12 @@ const ServiceList = [
     },
     {
         icon: <FiVideo />,
-        title: 'Video Shoots',
+        title: 'Maternity Shoots',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
         icon: <FiSmile />,
-        title: 'Everything Else',
+        title: 'Any Occasion',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
 ]

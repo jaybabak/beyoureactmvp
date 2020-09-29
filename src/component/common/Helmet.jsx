@@ -6,8 +6,9 @@ class PageHelmet extends Component{
         return(
             <React.Fragment>
                 <Helmet>
-                    <title>{this.props.pageTitle} | Be You by MQ</title>
-                    <meta name="description" content="Mariam Qureshi - A full service makeup artist located in Ottawa. Bridal makeup and special occasions." />
+                    <title>{this.props.pageTitle} | Be You by MQ - Mariam Qureshi Makeup Artist</title>
+                    <meta name="description" content="Be You by MQ | Mariam Qureshi makeup artist - Bridal makeup and full makeup services in the Ottawa and Gatineau area. Mariam provides services for all occasion!" />
+                    <meta name="keywords" content="Bridal makeup, traditional makeup, indian makeup, bridal make up, makeup artist, make up artist, make-up, bridal, occasions." />
                 </Helmet>
             </React.Fragment>
         )

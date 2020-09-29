@@ -2,19 +2,17 @@ import React, { Component } from "react";
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
-import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 
 import SliderOne from "../component/slider/SliderOne";
 import ServiceTwo from "../elements/service/ServiceTwo";
-import CounterOne from "../elements/counters/CounterOne";
 import ContactThree from "../elements/contact/ContactThree";
 import Testimonial from "../elements/Testimonial";
 import About from "../component/HomeLayout/homeOne/About";
 import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandOne from "../elements/Brand";
-import BrandTwo from "../elements/BrandTwo";
+
 import Helmet from "../component/common/Helmet";
 
 class MainDemo extends Component {
@@ -22,7 +20,7 @@ class MainDemo extends Component {
     const PostList = BlogContent.slice(0, 3);
     return (
       <div className="active-dark">
-        <Helmet pageTitle="Mariam Qureshi | Be You by MQ" />
+        <Helmet pageTitle="Home" />
         <Header
           headertransparent="header--transparent"
           colorblack="color--black"
@@ -116,7 +114,7 @@ class MainDemo extends Component {
                 <div className="col-lg-4 col-md-6 col-12" key={i}>
                   <div className="blog blog-style--1">
                     <div className="thumbnail">
-                      <a href="/blog-details">
+                      <a href="/portfolio">
                         <img
                           className="w-100"
                           src={`/assets/images/blog/blog-${value.images}.png`}

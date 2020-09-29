@@ -14,7 +14,7 @@ class About extends Component {
                 <div className="thumbnail">
                   <img
                     className="w-100"
-                    src="/static/images/mq_me2.png"
+                    src="/static/images/March3.png"
                     alt="About Images"
                   />
                 </div>

@@ -68,7 +68,67 @@
   color: black;
 }
 
-
 .error-form {
-  border: 2px solid red!important;
+  border: 2px solid #f9cb00!important;
+
+  //background gradient fill effect for error on form field.
+
+	// flex-shrink: 0;
+	// border: calc(8px + 0.2vw) solid transparent;
+	// background-origin: border-box;
+	// background-size: cover;
+	// box-sizing: border-box;
+	// box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+	// border-radius: 50%;
+  // background-image: linear-gradient(to top right, #f9cb00, #ffc107, #ffc107);
+  // color: black!important;
+}
+
+.footer-logo {
+  max-width: 175px;
+}
+
+.error-page-inner {
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.35;
+    background-image: url(/assets/images/bg/finding-us-38b.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.footer-style-2.bg_image--1 {
+  // background-image: url(/assets/images/bg/bg-image-32.png);
+  background-image: initial;
+  background-color: black;
+}
+
+.service-area.bg_image.bg_image--3 {
+  position: relative;
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.35;
+    background-image: url(/assets/images/bg/bg-image-37.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
 }

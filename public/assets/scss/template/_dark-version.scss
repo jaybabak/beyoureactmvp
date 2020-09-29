@@ -34,7 +34,7 @@
   .bg_color--5,
   .footer-right {
     // background: #101010;
-    background-image: url(/assets/images/bg/bg-image-38a.png);
+    // background-image: url(/assets/images/bg/bg-image-38a.png);
     &:after {
       content: "";
       position: absolute;
@@ -159,7 +159,8 @@
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu {
       background: #ffffff;
-      background: #f9cb00;
+      background: #f9cb00fa;
+      border-left: 18px solid #ffdd46;
     }
     .header-area .header-wrapper.menu-open .close-menu span {
       color: #c6c9d8 !important;
@@ -171,6 +172,7 @@
       font-family: $heading-font;
       color: #000000;
       font-size: 19px;
+      border-bottom: 1px solid black;
     }
     .header-area
       .header-wrapper
@@ -195,7 +197,8 @@
     }
     .header-area .header-wrapper .mainmenunav ul.mainmenu {
       background: #101010;
-      background: #f9cb00;
+      background: #f9cb00fa;  
+      border-left: 18px solid #ffdd46;
     }
     .header-area .header-wrapper.menu-open .close-menu span {
       color: #c6c9d8 !important;
@@ -210,6 +213,7 @@
       color: #ffffff;
       color: #000000;
       font-size: 19px;
+      border-bottom: 1px solid black;
     }
     .header-area
       .header-wrapper

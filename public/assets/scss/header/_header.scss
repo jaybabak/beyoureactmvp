@@ -481,10 +481,12 @@
               @media #{$md-layout} {
                 padding: 0;
                 display: block;
+                border-bottom: 1px solid black;
               }
               @media #{$sm-layout} {
                 padding: 0;
                 display: block;
+                border-bottom: 1px solid black;
               }
             }
             ul {
@@ -584,6 +586,8 @@
             @media #{$large-mobile} {
               width: 86vw;
               padding: 54px 20px;
+              background: #f9cb00fa;
+              border-left: 18px solid #ffdd46;
             }
           }
         }
