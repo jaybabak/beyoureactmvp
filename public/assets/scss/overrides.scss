@@ -132,3 +132,14 @@
     background-size: cover;
   }
 }
+
+a.about-link {
+  
+  .about-inner .section-title p.description &{
+    color: white;
+    &:hover {
+      color: #f9cb00;
+    }
+  }
+
+}

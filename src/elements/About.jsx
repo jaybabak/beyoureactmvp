@@ -12,7 +12,7 @@ import Footer from "../component/footer/Footer";
 
 class About extends Component {
   render() {
-    let title = "About",
+    let title = "About MQ",
       description =
         "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.";
     return (
@@ -37,7 +37,9 @@ class About extends Component {
                   <div className="about-inner inner">
                     <div className="section-title">
                       <h2 className="title">{title}</h2>
-                      <p className="description">{description}</p>
+                      <p className="description">Mariam Qureshi is a self-taught freelance Makeup Artist based out of Ottawa, Canada. </p>
+                      <p className="description">Mariam has a passion for all things beauty. Pay attention to detail,, enhance your natural features.</p>
+                      <p className="description">It is important to Mariam to ensure she stays up to date on the latest trends in the cosmetics industry. Since 2017, Mariam has attended seasonal brand training from prestige brands such as Lancome, Estee Lauder, Smasbox, Glamglow, Stila, Biotherm, Clarins, and more! She continues learning from other artists by attending masterclasses and online classes hosted by successful Makeup Artists such as SabrinaxMakeup, Nilo Haq, and DressYourFace. </p>
                     </div>
                     <div className="row mt--30">
                       <div className="col-lg-6 col-md-12 col-sm-12 col-12">

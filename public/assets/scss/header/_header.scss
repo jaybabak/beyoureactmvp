@@ -387,6 +387,8 @@
             transition: all 0.8s cubic-bezier(0.77, 0.2, 0.05, 1);
             display: block;
             overflow-y: auto;
+            background: #f9cb00fa;
+            border-left: 18px solid #ffdd46;
           }
           @media #{$sm-layout} {
             width: 60vw;
