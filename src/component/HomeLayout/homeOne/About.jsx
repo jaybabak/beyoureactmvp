@@ -24,24 +24,23 @@ class About extends Component {
                 <div className="about-inner inner">
                   <div className="section-title">
                     <h2 className="title">{title}</h2>
-                    <p className="description">Mariam Qureshi is a self-taught freelance Makeup Artist based out of Ottawa, Canada. Mariam has a passion for all things beauty. To learn more about Mariam visit the <a className="about-link" href="/about">About</a> page.</p>
+                    <p className="description">Mariam Qureshi is a self-taught freelance Makeup Artist based out of Ottawa, Canada. Mariam has a passion for all things beauty...</p>
+                    <p className="description">To learn more about Mariam visit the <a className="about-link" href="/about">About</a> page.</p>
                   </div>
                   <div className="row mt--30 mt_sm--10">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">Accomplisments</h3>
-                        <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered. 
-                        </p>
+                        <p>Accomplisment number one</p>
+                        <p>Item number 2</p>
+                        <p>Accomplisment number three</p>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                       <div className="about-us-list">
                         <h3 className="title">COVID-19 Update</h3>
                         <p>
-                          There are many vtions of passages of Lorem Ipsum
-                          available, but the majority have suffered.
+                          Barbicade Certified
                         </p>
                       </div>
                     </div>

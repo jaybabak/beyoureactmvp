@@ -40,6 +40,7 @@ class About extends Component {
                       <p className="description">Mariam Qureshi is a self-taught freelance Makeup Artist based out of Ottawa, Canada. </p>
                       <p className="description">Mariam has a passion for all things beauty. Pay attention to detail,, enhance your natural features.</p>
                       <p className="description">It is important to Mariam to ensure she stays up to date on the latest trends in the cosmetics industry. Since 2017, Mariam has attended seasonal brand training from prestige brands such as Lancome, Estee Lauder, Smasbox, Glamglow, Stila, Biotherm, Clarins, and more! She continues learning from other artists by attending masterclasses and online classes hosted by successful Makeup Artists such as SabrinaxMakeup, Nilo Haq, and DressYourFace. </p>
+                      <p className="description">Specialize in bridal and non-bridal looks, anywhere from ethnic glam to natural - or the classic winged liner with a bold red lip. The first step to flawless makeup is flawless skin - that is why all makeup appointments include a full skincare prep based on the clients specific skin type.</p>
                     </div>
                     <div className="row mt--30">
                       <div className="col-lg-6 col-md-12 col-sm-12 col-12">
